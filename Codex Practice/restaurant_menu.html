@@ -16,6 +16,10 @@
     #footer{
         text-align: center;
     }
+    #pizzaQuantity{
+        width: 30px;
+        height: 20px;
+    }
 </style>
 
 <body>
@@ -60,10 +64,10 @@
             Price: <b><i>$30</i></b><br>
             <label> <input type="submit" value="Order"></label>
         </article>
-
-        <h2 id="order-form"> Place Your Order </h2>
         
+        <h2 id="order-form"> Place Your Order </h2>
         <form>
+            <label> <input type="number" min="0" max="10" id="pizzaQuantity" > How many pizza's would you like?</label><br> <br>
             <label> Add ons: <br></label>
             <label> <input type="checkbox">Extra Cheese<br></label>
             <label> <input type="checkbox">Extra Mozarella<br></label>
