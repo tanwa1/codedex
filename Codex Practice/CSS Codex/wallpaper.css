@@ -1,0 +1,13 @@
+#outer {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+#inner {
+    width: 400px;
+    height: 500px;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/portrait-of-cat-sitting-outdoors-royalty-free-image-1701438826.jpg?crop=1xw:0.84366xh;center,top");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
