@@ -1,5 +1,8 @@
 * {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 div {
     border: 2px solid grey;
@@ -7,6 +10,7 @@ div {
 
 #post-list > li {
     list-style-type: none;
+    padding-left: 40px;
     padding-right: 40px;
 }
 li > div {
