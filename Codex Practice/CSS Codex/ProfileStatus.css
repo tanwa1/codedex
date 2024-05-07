@@ -22,12 +22,14 @@ li > div {
 }
 
 #outside-wrapper { 
+    margin: auto;
     width: 100%;
     background-color: rgb(169, 206, 221);
     text-align: center;
 }
 
 .post-wrapper {
+    margin: 15px;
     padding: 50px 50px 50px 50px;
     text-align: left;
     background-color: #f5f5f5;
@@ -38,3 +40,4 @@ li > div {
     width: 100%;
     border-radius: 5px;
 }
+
