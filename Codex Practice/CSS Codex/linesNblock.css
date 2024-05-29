@@ -1,3 +1,25 @@
+/* #red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+#blue {
+  position: relative;
+  bottom: 40px;
+  left: 5%;
+  z-index: -1;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+#green {
+  position: relative;
+  bottom: 100px;
+  z-index: -1;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+} */
 * {
     font-family: Lato, sans-serif;
     box-sizing: border-box;
@@ -23,7 +45,10 @@
     margin: 5px 0;
   }
   #notification-div {
-  margin: auto;
+  position: relative;
+  top: 250%;
+  bottom: 50%;
+  left: 37.9%;
   background-color: #ed8a0a;
   color: #313131;
   padding: 5px;
