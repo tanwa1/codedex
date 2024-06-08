@@ -1,5 +1,10 @@
-console.log("   a");
-console.log("  b c");
-console.log(" d e g");
-console.log("g h i j");
-console.log("   k");
+console.log("I am Jephunneh Deniel D. Santiago, a fun fact about myself is that my name from The Bible.");
+console.log(" JJJJJJJJ        SSSSS");
+console.log("    JJ          SS");
+console.log("    JJ          SS");
+console.log("    JJ          SS");
+console.log("    JJ          SSSSS");
+console.log("    JJ              SS");
+console.log("    JJ              SS");
+console.log("JJ  JJ              SS");
+console.log("JJJJJ           SSSSS");
