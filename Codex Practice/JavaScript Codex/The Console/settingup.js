@@ -1,10 +1,10 @@
 console.log("I am Jephunneh Deniel D. Santiago, a fun fact about myself is that my name from The Bible.");
 console.log(" JJJJJJJJ        SSSSS");
-console.log("    JJ          SS");
+console.log("    JJ          SS    S");
 console.log("    JJ          SS");
 console.log("    JJ          SS");
 console.log("    JJ          SSSSS");
 console.log("    JJ              SS");
 console.log("    JJ              SS");
-console.log("JJ  JJ              SS");
+console.log("JJ  JJ          S   SS");
 console.log("JJJJJ           SSSSS");
