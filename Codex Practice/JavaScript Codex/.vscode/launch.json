@@ -9,7 +9,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Conditionals/goodmorning.js"
+            "program": "${workspaceFolder}/Conditionals/magic8Ball.js"
         },
 
         // {
