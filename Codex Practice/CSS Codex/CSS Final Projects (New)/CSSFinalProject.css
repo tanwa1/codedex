@@ -1,0 +1,206 @@
+* {
+  font-family: Lato, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+}
+html {
+  background-color: bisque;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  padding-right: 20px;
+}
+
+nav li {
+  background-color: #c2c2ff;
+  padding: 7px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 5px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 25px 10px 20px 10px;
+}
+
+footer>p {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#about-container{
+  background-color:aqua;
+  width: 100%;
+}
+
+#projectsHeader>h2 {
+  width: 100%;
+  background-color: rgb(50, 150, 50);
+}
+
+#contactHeader {
+  background-color: rgb(50, 50, 150);
+  color: #fff;
+}
+
+nav li:hover {
+  background-color: lightgreen;
+}
+
+#About {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  margin-top: 1px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.AboutHeader {
+  min-height: 60vh;
+  margin: 13% 10px 10px 10px;
+  border-radius: 10px;
+  align-self: start;
+}
+
+#textHeader {
+  margin: auto;
+  border: 2px solid rgb(195, 0, 255);
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  background-color: rgb(0, 255, 242);
+  width: 65%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+#jephunnehImage{
+  height: 100%;
+  width: 100%;
+}
+
+.classProject {
+  display: flex;
+}
+
+#payroll,#conversion {
+  width: 65%;
+  height: 65%;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+#resume-container{
+  background-color:aqua;
+  width: 100%;
+}
+
+#CV-png{
+  margin-top: 10px;
+  height: 50%;
+  width: 50%;
+}
+
+.classProject{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#Bhouse{
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 60%;
+  width: 90%;
+}
+
+#Fitser{
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 70%;
+  width: 40%;
+}
+#Payroll{
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 80%;
+  width: 70%;
+}
+
+#Conversion{
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 80%;
+  width: 70%;
+}
+
+#certification{
+  background-color: aqua;
+}
+#cert-container{
+  min-height: 80vh;
+}
+
+.cert{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#ITSdatabase, #ITShtmlNcss, #CodexHTML, #CodexCSS, #CodexJS{
+  height: 90%;
+  width: 60%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.skills-container{
+  min-height: 60vh;
+}
+
+#skills-section{
+  width: 100%;
+  background-color: aqua;
+}
+
+.education-container{
+  min-height: 60vh;
+}
+
+#education-section{
+  width: 100%;
+  background-color: aqua;
+}
+
+.education-GRID{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
