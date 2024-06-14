@@ -9,7 +9,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Loops/duckduckgoose.js"
+            "program": "${workspaceFolder}/Loops/luckyNumber.js"
         },
 
         // {
