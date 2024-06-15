@@ -13,24 +13,20 @@
         <ul class="header-container">
           <li><a href="#about-container"> About </a></li>
           <li><a href="#resume-container"> Resume </a></li>
-          <li><a href="#certificationHeader"> Certification </a></li>
+          <li><a href="#certification-header"> Certification </a></li>
           <li><a href="#projectsHeader"> Projects </a></li>
-          <li><a href="#skillsHeader"> Skills </a></li>
-          <li><a href="#educationHeader"> Education </a></li>
+          <li><a href="#skills-header"> Skills </a></li>
+          <li><a href="#education-header"> Education </a></li>
           <li><a href="#contactHeader"> Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="abouth eader">
+      
+      <div class="about-header">
         <h2 id="about-container">About</h2>
         <div class="AboutHeader">
           <div id="textHeader">
-            <img
-              src="Jephunneh.png"
-              alt="Picture of Jephunneh Deniel Santiago"
-              id="jephunnehImage"
-            />
             <p id="About">
               Hello, I'm Jephunneh Deniel Santiago, I'm the one who made this
               portfolio site, although it's too generic, I <b> WILL </b> try to
@@ -43,9 +39,15 @@
       <div class="CV-container">
         <h2 id="resume-container">Resume</h2>
         <img src="CV.png" alt="Jephunneh Deniel's CV." id="CV-png" />
-        <div>
-          <a href="">Download</a>
-          <a href="">View External</a>
+
+        <div class="viewdownloads">
+          <div id="downloadButton">
+            <a href="CV.pdf" download="">
+              Download</a>
+          </div>
+          <div id="viewButton">
+            <a href="https://drive.google.com/file/d/1MbRQR3Tm2E__Mlk5Tj7TPPPlnBmVxe2v/view?usp=drive_link" target="_blank"><p>View External</p></a>
+          </div>
         </div>
       </div>
 
@@ -59,7 +61,7 @@
               alt="Boardinghouse Management GIF"
               id="Bhouse"
             />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>A web application that allows the landlord to track and manage the payments of its tenants efficiently.</p>
             <div>
               <div>
                 <img src="" />
@@ -70,7 +72,7 @@
 
           <div>
             <img src="fitster-demo.gif" alt="Fitser GIF" id="Fitser" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>A workout planner I contributed to develop as my final project for mobile app development subject</p>
             <div>
               <div>
                 <img src="" />
@@ -85,7 +87,7 @@
               alt="Interface of a payroll calculator"
               id="Payroll"
             />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>A payroll calculator I developed as a project back in 2nd year</p>
             <div>
               <div>
                 <img src="" />
@@ -100,7 +102,7 @@
               alt="Interface number system calculator"
               id="Conversion"
             />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>A conversion calculator I developed as a project back in 3rd year</p>
             <div>
               <div>
                 <img src="" />
@@ -112,7 +114,7 @@
       </section>
 
       <div id="cert-container">
-        <h2 id="certification">Certification</h2>
+        <h2 id="certification-header">Certification</h2>
 
         <div class="cert">
           <div>
@@ -140,39 +142,111 @@
           </div>
 
           <div>
-            <img src="" alt="Codex CSS Certification" id="CodexCSS" />
+            <img
+              src="cssCodex.png"
+              alt="Codex CSS Certification"
+              id="CodexCSS"
+            />
           </div>
 
           <div>
-            <img src="" alt="JavaScript Certification" id="CodexJS" />
+            <img src="PyCert.png" alt="Python Certification" id="pythonCert" />
           </div>
         </div>
       </div>
 
       <div class="skills-container">
-        <h2 id="skills-section">Skills</h2>
+        <h2 id="skills-header">Skills</h2>
+
+        <div class="logo-containers">
+
+          <div class="language-container">
+            <div>
+              <h2>Languages</h2>
+            </div>
+
+            <div class="logo-columns">
+              <div>
+                <p>HTML</p>
+                <img src="HTML.svg" id="htmlLogo" />
+              </div>
+
+              <div>
+                <p>CSS</p>
+                <img src="CSS.svg" id="cssLogo" />
+              </div>
+
+              <div>
+                <p>JavaScript</p>
+                <img src="JS.svg" id="javascriptLogo" />
+              </div>
+
+              <div>
+                <p>Python</p>
+                <img src="PY.svg" id="pythonLogo" />
+              </div>
+
+              <div>
+                <p>DART</p>
+                <img src="DART.svg" id="dartLogo" />
+              </div>
+
+            </div>
+          </div>
+
+          <div class="framework-database-containers">
+            <div>
+              <h2>Framework & Database</h2>
+            </div>
+
+             <div class="framework-container">
+              <div>
+                <p>mySQL</p>
+                <img src="MYSQL.svg" id="mysqlLogo" />
+              </div>
+  
+              <div>
+                <p>Flutter</p>
+                <img src="Flutter.svg" id="flutterLogo" />
+              </div>
+  
+             </div>
+          </div>
+
+          <div class="tools-containers">
+            <div>
+              <h2>Tools</h2>
+            </div>
+
+            <div class="git-container">
+              <p>Git</p>
+              <img src="GIT.svg" id="gitLogo" />
+            </div>
+
+          </div>
+        </div>
       </div>
 
       <div class="education-container">
-        <h2 id="education-section">Education</h2>
+        <h2 id="education-header">Education</h2>
         <div class="education-GRID">
-          <div>
+          <div style="border: 1px solid #BE9FCB; border-radius: 5px;" > 
             <p>College</p>
           </div>
-          <div>
+          <div style="border: 1px solid #BE9FCB; border-radius: 5px;">
             <p>Bachelor of Science in Computer Science</p>
             <p>University of Mindanao, Davao City</p>
             <p>2021- Present</p>
           </div>
 
-            <div>
-              <p>Senior High School</p>
-            </div>
-            <div>
-              <p>IT in Mobile App and Web Development</p>
-              <p>STI College Malaybalay, Bukidnon</p>
-              <p>2019- 2021</p>
-            </div>
+          <div style="border: 1px solid #BE9FCB; border-radius: 5px;" >
+            <p>Senior High School</p>
+          </div>
+          <div style="border: 1px solid #BE9FCB; border-radius: 5px;">
+            <p>IT in Mobile App and Web Development</p>
+            <p>STI College Malaybalay, Bukidnon</p>
+            <p>2019- 2021</p>
+          </div>
         </div>
       </div>
 
