@@ -9,7 +9,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Project Checkpoint/checkPoint.js"
+            "program": "${workspaceFolder}/Arrays/fiveBoroughs.js"
         },
 
         // {
