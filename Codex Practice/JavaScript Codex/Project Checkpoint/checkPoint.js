@@ -1,6 +1,9 @@
-document.addEventListener("DOMContentLoaded", (event) => {
-  document.getElementById("myButton").addEventListener("click", () => {
-    const userBirthMonth = prompt("What month were you born in?");
+
+    const userBirthMonth = "March"; 
+
+/* You can change the month you were born in 
+   If you want to get an error just initalize 
+   anything as long as it's a string  wink* wink */
 
     const months = [
         "JANUARY",
@@ -17,8 +20,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         "DECEMBER",
       ];
 
-
-    const zodiacSigns = {
+    let zodiacSigns = {
       "JANUARY": "Capricorn",
       "FEBRUARY": "Aquarius",
       "MARCH": "Pisces",
@@ -33,25 +35,37 @@ document.addEventListener("DOMContentLoaded", (event) => {
       "DECEMBER": "Sagittarius",
     };
 
-    const randomIndex = Math.floor(Math.random() * months.length);
-    const randomMonth = months[randomIndex];
+    let fortunes = [
+        "You will have a great day!",
+        "A surprise is waiting for you.",
+        "Good news is on the way.",
+        "You will achieve your goals.",
+        "Someone special will bring joy to your life.",
+        "Expect to make new friends.",
+        "You will find what you have been seeking.",
+        "Adventure is in your future.",
+        "Success will come easily to you.",
+        "Happiness is around the corner."
+      ];
+      
+        let found = false;
 
-    // if (randomMonth === userBirthMonth.toUpperCase()) {
-    //   console.log(zodiacSigns[randomMonth]);
-    //   console.log("Congrats");
-    // } else {
-    //     console.log("The random month was " + randomMonth + ". Try again!");
-    // }
+      for (let index = 0; index < months.length; index++) {
 
-    for (let index = 0; index < months.length; index++) {
-        if (randomMonth === userBirthMonth.toUpperCase()) {
-            console.log(zodiacSigns[randomMonth]);
-            console.log("Congrats");
-          } else {
-              console.log("The random month was " + randomMonth + ". Try again!");
-          }
+        if (months[index] === userBirthMonth.toUpperCase()) {
+            
+            let exactMonth = months[index];
+            let randFortuneIndex = Math.floor(Math.random() * fortunes.length);
+            let randomFortune = fortunes[randFortuneIndex];
+
+            console.log(zodiacSigns[exactMonth]);
+            console.log("Your Fortune: " + randomFortune);
+            found = true;
+            break;
+        }
+        
+      }
+      if(!found) {
+        console.log("Error");
     }
 
-
-  });
-});
