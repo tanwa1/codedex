@@ -1,4 +1,4 @@
-let myNumber = 24;
+let myNumber = 23;
 
 let binary = "";
 while (myNumber > 0) {
@@ -6,7 +6,7 @@ while (myNumber > 0) {
         binary = "0" + binary;
     }
     else {
-        binary = "0" + binary;
+        binary = "1" + binary;
     }
     myNumber = Math.floor(myNumber / 2);
 }
