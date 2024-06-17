@@ -90,17 +90,9 @@ nav li:hover {
   padding: 50px 20px 20px 20px;
   width: 100%;
 }
-
-#jephunnehImage{
-  height: 100%;
-  width: 100%;
-}
-
 .resume-container {
   font-size: 20px;
   display: grid;
-  justify-content: center;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
   padding: 5px 5px 5px 5px;
   width: 50%;
@@ -246,10 +238,10 @@ padding-bottom: 30px;
   height: 30px;
 }
 .viewdownloads{
+  margin-left: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  margin: 5px 5px 10px 5px;
 }
 
 #downloadButton {
