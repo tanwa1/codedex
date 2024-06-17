@@ -12,7 +12,6 @@
       <nav>
         <ul class="header-container">
           <li><a href="#about-container"> About </a></li>
-          <li><a href="#resume-container"> Resume </a></li>
           <li><a href="#projectsHeader"> Projects </a></li>
           <li><a href="#certification-header"> Certification </a></li>
           <li><a href="#skills-header"> Skills </a></li>
@@ -23,44 +22,40 @@
     </header>
     <main>
       <article>
-          <h2 id="about-container">About</h2>
-          <div class="AboutHeader">
-            <div id="textHeader">
+        <h2 id="about-container" >About</h2>
+        <div class="AboutHeader">
+          <div id="textHeader">
+            <div>
+              <p id="name-header">Jephunneh Deniel Santiago</p>
+            </div>
 
-              <div>
-                <p id="name-header"> Jephunneh Deniel Santiago </p>
-              </div>
-
-              <div>
-                <p id="About">
-                  an aspiring Web Developer, eager to learn and continuously grow
-                  my skillset in web development.
-                </p>
-              </div>
-
+            <div>
+              <p id="About">
+                an aspiring Web Developer, eager to learn and continuously grow
+                my skillset in web development.
+              </p>
             </div>
           </div>
-      </article>
 
-      <section>
-        <div class="CV-container">
-          <h2 id="resume-container">Resume</h2>
-          <img src="CV.png" alt="Jephunneh Deniel's CV." id="CV-png" />
-
-          <div class="viewdownloads">
-            <div id="downloadButton">
-              <a href="CV.pdf" download=""> Download</a>
-            </div>
-            <div id="viewButton">
-              <a
-                href="https://drive.google.com/file/d/1MbRQR3Tm2E__Mlk5Tj7TPPPlnBmVxe2v/view?usp=drive_link"
-                target="_blank"
-                ><p>View External</p></a
-              >
+          <di class="resume-container">
+            <p>Resume</p>
+            <div class="CV-container">
+              <div class="viewdownloads">
+                <div id="downloadButton">
+                  <a href="CV.pdf" download=""> Download</a>
+                </div>
+                <div id="viewButton">
+                  <a
+                    href="https://drive.google.com/file/d/1MbRQR3Tm2E__Mlk5Tj7TPPPlnBmVxe2v/view?usp=drive_link"
+                    target="_blank"
+                    ><p>View External</p></a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </article>
 
       <section id="projectsHeader">
         <h2>Projects</h2>
@@ -112,10 +107,10 @@
               alt="Interface of a payroll calculator"
               id="Payroll"
             />
-            <p id="bhouse-container" >
+            <p id="bhouse-container">
               A payroll calculator I developed as a project back in 2nd year
             </p>
-            <div>
+              <div>
               <div>
                 <img src="Java.svg" id="projectsJava" />
                 <p>Java</p>
@@ -196,7 +191,7 @@
 
           <div class="logo-containers">
             <div class="language-container">
-              <div>
+              <div class="language">
                 <h2>Languages</h2>
               </div>
 
@@ -265,6 +260,7 @@
           <h2 id="education-header">Education</h2>
           <div class="education-GRID">
             <div style="border: 1px solid #be9fcb; border-radius: 5px">
+              <img style="height: 50px; width: 50px; margin-top: 10px;" src="colllege.svg"/>
               <p>College</p>
             </div>
             <div style="border: 1px solid #be9fcb; border-radius: 5px">
@@ -274,6 +270,7 @@
             </div>
 
             <div style="border: 1px solid #be9fcb; border-radius: 5px">
+              <img style="height: 50px; width: 50px; margin-top: 10px;" src="highschool.svg"/>
               <p>Senior High School</p>
             </div>
             <div style="border: 1px solid #be9fcb; border-radius: 5px">
@@ -286,28 +283,27 @@
       </section>
 
       <footer id="contactHeader">
-        <h2>Contact</h2>
-        <p>Made with love</p>
-        <a href="https://www.facebook.com/keksome" target="_blank"
-          ><img
-            src="facebook.svg"
-            alt="Facebook Logo"
-            style="width: 42px; height: 42px"
-        /></a>
-        <a href="https://github.com/tanwa1" target="_blank"
-          ><img
-            src="github.svg"
-            alt="GitHub Logo"
-            style="width: 42px; height: 42px"
-        /></a>
+        <h2>Contact Me</h2>
+        <div class="contact-logo">
+          <div>
+            <a href="https://www.facebook.com/keksome" target="_blank" >
+              <img src="facebook.svg"alt="Facebook Logo"style="width: 42px; height: 42px"/></a>
+              <p>Facebook</p>
+          </div>
 
+        <div>
+          <a href="https://github.com/tanwa1" target="_blank" >
+            <img src="github.svg"alt="GitHub Logo"style="width: 42px; height: 42px"/></a>
+            <p>Github</p>
+        </div>
+
+       <div>
         <a href="mailto:jephunnehdenielsantiago@gmail.com">
-          <img
-            src="gmail.svg"
-            alt="Gmail Logo"
-            style="width: 42px; height: 42px"
-          />
+          <img src="gmail.svg" alt="Gmail Logo" style="width: 42px; height: 42px" />
+          <p>Gmail</p>
         </a>
+       </div>
+        </div>
       </footer>
     </main>
   </body>
