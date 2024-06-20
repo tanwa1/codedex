@@ -1,6 +1,4 @@
 const musicPlaylist = [
-    "Dry Flower",
-    "Spring and Winter",
     "Sabotage",
     "I Wanna Dance With Somebody",
     "Don't Speak",
@@ -9,8 +7,12 @@ const musicPlaylist = [
     "The Breaks",
     "Brick",
     "Aeroplane Over the Sea",
-    "Fish"
   ];
 
+musicPlaylist.pop();
+musicPlaylist.push("Fish");
+musicPlaylist.unshift("Dry Flower", "Spring and Winter");
 
   console.log(musicPlaylist);
+
+

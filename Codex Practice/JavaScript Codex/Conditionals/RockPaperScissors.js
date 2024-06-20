@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // 0 = Rock 
         // 1 = Scissors
         // 2 = Paper
+        
         const choices = ["Rock", "Scissor", "Paper"];
         const userChoice = choices[userInput];
         const computerChoice = choices[computerRandom];
