@@ -10,7 +10,7 @@ const characters = [
 
 let waldoIndex = characters.indexOf("Waldo");
 
-if (waldoIndex == characters.includes("Walod")) {
+if (characters.includes("Waldo") === true) {
   console.log("Found Waldo at index" + characters.indexOf("Waldo"));
 } else {
   console.log("Not Found");
