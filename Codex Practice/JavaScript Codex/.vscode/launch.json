@@ -9,7 +9,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/PracticeJS/practice.js"
+            "program": "${workspaceFolder}/Functions/clout.js"
         },
 
         // {

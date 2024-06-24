@@ -38,17 +38,17 @@ function forLoopLength() {
 }
 
 function objectTwo(parameter) {
-     const userName = {
-        Name: "Jephunneh",
-        Age: 30,
-        Occupation: 'Astronaut',
-        Language: "Sugbu Bisdak",
-        Address: "Japan Third Floor"
-     }
-     return userName[parameter]
-  }
+  const userName = {
+    Name: "Jephunneh",
+    Age: 30,
+    Occupation: "Astronaut",
+    Language: "Sugbu Bisdak",
+    Address: "Japan Third Floor",
+  };
+  return userName[parameter];
+}
 
-let userInput = "2";
+let userInput = "1";
 
 switch (userInput.toLowerCase()) {
   case "1":
@@ -67,7 +67,7 @@ switch (userInput.toLowerCase()) {
     forLoopLength();
     break;
 
-    case "3":
+  case "3":
     console.log(objectTwo("Language"));
     break;
 
