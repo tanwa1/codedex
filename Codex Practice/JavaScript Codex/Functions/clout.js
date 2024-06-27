@@ -4,6 +4,10 @@ const recentYouTubeViews = [2300, 453, 5222, 989, 6733, 7402, 2789];
 
 function mean(viewsArrays) {
   let totalViews = 0;
+}
+
+function mean(viewsArrays) {
+  let totalViews = 0;
 
   for (let i = 0; i < viewsArrays.length; i++) {
     totalViews += viewsArrays[i];
