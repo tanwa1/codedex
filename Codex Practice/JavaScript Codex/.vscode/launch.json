@@ -9,7 +9,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Functions/clout.js"
+            "program": "${workspaceFolder}/Functions/palindrome.js"
         },
 
         // {
