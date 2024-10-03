@@ -19,7 +19,7 @@ function appTimer(){
         totalSeconds = sessionAmount * 60;
       }
       
-      const updateSeconds = () => {
+      function updateSeconds(){
         if (!isPaused) {
           totalSeconds--;
         
