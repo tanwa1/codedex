@@ -9,7 +9,7 @@ let state = true;
 let isPaused = false;
 let totalSeconds;
 
-const appTimer = () => {
+function appTimer(){
     const sessionAmount = Number.parseInt(session.textContent)
   
     if(state || isPaused) {
@@ -48,7 +48,7 @@ const appTimer = () => {
     }
   }
 
-  const resetTimer = () => {
+  function resetTimer(){
     clearInterval(myInterval)
     state = true;
     isPaused = false;
@@ -58,7 +58,7 @@ const appTimer = () => {
     secondDiv.textContent = '00';
   }
 
-  const pauseTimer = () => {
+  function pauseTimer() {
     if (!state) {
       isPaused = !isPaused;
     }
